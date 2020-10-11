@@ -1,0 +1,33 @@
+.search-panel-wrapper{
+    margin: 15px 0 ;
+    display: flex;
+}
+.SearchPanel{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(247, 247, 247);
+    outline: none;
+}
+.search-btn{
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px 0px 10px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #293E40;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-btn:hover{
+    background: #81B5A1;
+    transition: .2s all ease-out;
+}
+.icon-plus{
+    margin-left: 3px;
+}

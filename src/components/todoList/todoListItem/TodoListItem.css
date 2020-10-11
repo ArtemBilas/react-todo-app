@@ -1,0 +1,69 @@
+.list-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #293e40;
+}
+
+.btn-line-throught,
+.btn-important,
+.btn-delete {
+    cursor: pointer;
+}
+
+.item-label {
+    display: flex;
+}
+.btns-container,
+.btn-delete,
+.btn-important,
+.btn-line-throught {
+    display: flex;
+    justify-content: center;
+    transition: 0.3s all;
+}
+.btns-container {
+    padding: 0 10px 0 0;
+}
+.btn-delete,
+.btn-important,
+.btn-line-throught {
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 254, 254);
+    margin-left: 5px;
+    width: 25px;
+    height: 20px;
+    transition: 0.3s all;
+}
+.btn-line-throught {
+    margin-right: 5px;
+}
+.btn-delete:hover {
+    background: rgb(255, 136, 115);
+    color: white;
+}
+
+.btn-important:hover {
+    background: #293e40;
+    color:#81b5a1;
+}
+
+.btn-line-throught:hover {
+    background: #81b5a1;
+    color: white;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.important {
+    color: rgb(255, 136, 115);
+    font-weight: bold;
+}

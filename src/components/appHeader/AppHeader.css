@@ -1,0 +1,13 @@
+.AppHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    color: #293E40;
+}
+.AppTitle{
+}
+.amound-content{
+    color: rgb(196, 196, 196);
+}

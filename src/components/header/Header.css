@@ -1,0 +1,39 @@
+.Header{
+    min-width: 320px;
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-radius: 0px 0px 5px 5px ;
+}
+.Logo{
+    margin-left: 10px;
+    border: 2px solid #293E40;
+    border-radius: 5px;
+    padding: 5px;
+    color: #293E40;
+    transition: all .3s;
+}
+.Social-icons{
+    display: flex;
+    align-items: center;
+}
+.social-link,.logo-link{
+    text-decoration: none;
+    color: #293E40;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px ;
+    transition: all .3s;
+    border: 2px solid #293E40;
+    border-radius: 5px;
+    padding:2px;
+}
+.icon:hover{
+   color:  #81B5A1;
+   background: #293E40;
+}
