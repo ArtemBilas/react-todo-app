@@ -1,4 +1,5 @@
-# `To Do App built with: React | React-Icons| CSS`
+# To Do App 
+`built with: React | React-Icons| CSS`
 
 
 ## Used these dependencies:
