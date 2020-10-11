@@ -8,7 +8,7 @@
     react-dom 
     react-icons
     
-*- version you can check in pakage.json file what includes in this project*
+*- version you can check in `pakage.json` file what includes in this project*
     
 ### What has already been done:
 1. Implementation of search and filtering among the to do list.
