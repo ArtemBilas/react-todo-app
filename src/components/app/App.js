@@ -9,12 +9,7 @@ import './App.css';
 export default class App extends Component {
 
   state = {
-    todoData: [
-      // this.createItem('Learn React'),
-      // this.createItem('Build this app'),
-      // this.createItem('Have Fun'),
-      // this.createItem('Grow'),
-    ],
+    todoData: [],
     term: '',
     filter: 'all'
   }
